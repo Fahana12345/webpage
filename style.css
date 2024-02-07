@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Dela+Gothic+One&family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Montserrat:wght@800&display=swap');
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 15vh;
+    background: whitesmoke;
+    box-shadow: 3px 3px 5px 6px #ccc;
+}
+.img img{
+    height: 60px;
+    margin-left: 150px;
+    width: 60px;
+    margin-top: 15px;
+}
+.logo 
+{
+    margin-left: 220px;
+    font-family: 'Montserrat',sans-serif;
+    margin-top: -45px;
+}
+.logo h4{
+    font-size: 24px;
+}
+nav ul{
+    float: right;
+    display: flex;
+    margin-right: 90px;
+}
+nav ul li
+{
+    padding: 0px 30px;
+    list-style: none;
+    margin-top: -25px;
+}
+nav ul li a
+{
+    font-family: 'Poppins',sans-serif;
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+}
+nav ul li a:hover
+{
+    color: rgb(155, 71, 83);
+}
+.icons
+{
+    margin-top: -25px;
+}
+.icons a
+{
+    color: rgb(181, 15, 15);
+    padding: 0px 19px;
+}
+.main
+{
+    background: rgb(218, 139, 139);
+    width: 60%;
+    height: 100%;
+}
+.QuickCart img
+{
+    height: 60%;
+    margin-top: 30px;
+    float: right;
+    width: 60%;
+}
+.love
+{
+    margin-top: 250px;
+    margin-left: 150px;
+}
+.love h5
+{
+    font-size: 20px;
+    line-height: 1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.love h2{
+    font-size: 39px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+span
+{
+    color: rgb(124, 18, 57);
+
+}
+.love p
+{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 500;
+    margin-top: 5px;
+
+}
+.btn
+{
+    margin-left: 150px;
+    margin-top: 30px;
+}
+.btn a{
+    padding: 20px 40px;
+    background: rgb(13, 11, 11);
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: bolder;
+}
+.btn a:hover
+{
+    background: rgb(12, 10, 10);
+}
